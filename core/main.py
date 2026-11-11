@@ -2,10 +2,7 @@ import telebot
 from gtts import gTTS
 import os
 
-os.environ["HTTP_PROXY"] = "http://127.0.0.1:12334"
-os.environ["HTTPS_PROXY"] = "http://127.0.0.1:12334"
-
-API_TOKEN = '9182263085:AAGFxwd4MY9_c2i0vhe9cQvehVwpTcHUAig'
+API_TOKEN = 'token'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
